@@ -26,6 +26,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="s6J-Ng-9oc" kind="show" identifier="monSegue" id="cIo-kr-fnc"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8uu-Jf-1qK">
                                 <rect key="frame" x="40" y="104" width="274" height="30"/>
@@ -38,6 +41,9 @@
                         <color key="backgroundColor" red="0.15686274510000001" green="0.66666666669999997" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="contenuATransmettre" destination="8uu-Jf-1qK" id="pie-Pj-lc4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,6 +68,9 @@
                         <color key="backgroundColor" red="1" green="0.69962422209999997" blue="0.44705478469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="CSy-K1-n5c"/>
                     </view>
+                    <connections>
+                        <outlet property="destinationLabel" destination="UiQ-SP-5tt" id="vSS-3F-sJf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7a-iM-hoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
